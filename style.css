@@ -1,0 +1,65 @@
+body {
+    background-color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    font-size: 1vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 2vw;
+    font-family: "Fredoka One", sans-serif;
+    text-shadow:
+    1px 1px 0px white,
+    -1px 1px 0px white,
+    1px -1px 0px white,
+    -1px -1px 0px white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 1VW;
+    list-style: none;
+}
+
+ul > li {
+    padding: 1vw;
+    margin: 1vw;
+    color: white;
+}
+
+body > header {
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: blanchedalmond;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+}
